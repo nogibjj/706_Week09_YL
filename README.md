@@ -14,6 +14,7 @@ This repository includes the main tasks for Week 1:
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 * `script.py`
 * `test_script.py`
+* `week09.ipynb`
 
 
 ## Project description

@@ -2,16 +2,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
+
 def describe(df):
     return df.describe()
+
 
 def getMedian(df):
     return df.median()
 
+
 def getScatter(csv):
     pd.set_option("display.max_column", None)
     generaldf = pd.read_csv(csv)
-    plt.figure(figsize=(7,4))
+    plt.figure(figsize=(7, 4))
     a = []
     for i in range(len(generaldf.index)):
         a.append(datetime.strptime(generaldf["Date"][i], "%Y-%m-%d").date())
