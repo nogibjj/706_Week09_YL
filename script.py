@@ -8,7 +8,7 @@ if __name__ == "__main__":
     res = describe(data)
     print("The descriptive statistics of the data is: ")
     print(res)
-    print(f"The median of total confirmed is: ")
+    print("The median of total confirmed is: ")
     print(getMedian(data["TotalConfirmed"]))
     print("A scatterplot of total confirmed is below: ")
     getScatter(csv)
