@@ -18,4 +18,6 @@ numpy
 pandas
 matplotlib
 seaborn
-polars
+scikit-learn
+datetime
+nbval
